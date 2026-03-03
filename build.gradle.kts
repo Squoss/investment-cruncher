@@ -20,6 +20,8 @@ repositories {
 }
 
 dependencies {
+	implementation(project(":hexagon"))
+	
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
